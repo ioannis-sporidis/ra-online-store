@@ -1,9 +1,14 @@
-import React from 'react'
-import styled from 'styled-components'
-import { Filters, ProductList, Sort, PageHero } from '../components'
+import React from 'react';
+import styled from 'styled-components';
+import { Filters, ProductList, Sort, PageHero } from '../components';
 
 const ProductsPage = () => {
-  return <h4>products page</h4>
+
+  return (
+    <>
+    <h4>All products</h4>
+    </>
+  )
 }
 
 const Wrapper = styled.div`
